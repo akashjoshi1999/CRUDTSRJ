@@ -1,7 +1,7 @@
 import React from "react";
 import * as ReactDOM from "react-dom";
-import TodoList from "./component/TodoList";
-import { store } from "./component/store";
+import TodoList from "./component/taskTodo/TodoList";
+import { store } from "./component/taskTodo/store";
 import { Provider } from "react-redux";
 
 function App() {
